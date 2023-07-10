@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.svg" type="image/svg+sml">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EDIFY - Educational Website</title>
+    <style>
+        body {
+            background-image: url("./images/bg-texture.png");
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>EDIFY</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class='bx bx-menu'></i></button>
+            <button id="close-menu-btn"><i class='bx bx-x'></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>Edify offers you with variety of courses which helps you in your skill development and makes you confident for the job. Enroll and get started.</p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg" alt="header-image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>There is a large collection of subject skills offered by Edify you can choose from. These subjects are mainly divided under these categories as mentioned which provided you with the necessary knowledge for skill enhancement.</p>
+                <a href="courses.html" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class='bx bx-bitcoin'></i></span>
+                    <h5>Blockchain</h5>
+                    <p>A digital database containing various information that can be simultaneously used and shared within a large decentralized, publicly accessible network.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class='bx bx-cookie bx-rotate-90' style='color:#ffffff' ></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>The art or profession of using design elements (such as typography and images) to convey information or create an effect.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class='bx bx-dollar-circle' style='color:#ffffff' ></i></span>
+                    <h5>Finance</h5>
+                    <p>The system that includes the circulation of money, the granting of credit, the making of investments, and the provision of banking facilities.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class='bx bxs-megaphone'></i></span>
+                    <h5>Marketing</h5>
+                    <p>The act or process of selling or purchasing in a market, also known as the process or technique of promoting, selling, and distributing a product or service.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class='bx bx-music' style='color:#ffffff' ></i></span>
+                    <h5>Music</h5>
+                    <p>The science or art of ordering tones or sounds in succession, in combination, and in temporal relationships to produce a composition having unity and continuity.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class='bx bxs-business'></i></span>
+                    <h5>Business</h5>
+                    <p>A usually commerical or mercantile activity engaged in as a means of livelihood or a commercial or sometimes an industrial enterprise.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg" alt="course-1">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                    <p>Learn about the outline of a social media website with responsiveness against different devices and various background settings.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg" alt="course-2">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Portfolio Website Design</h4>
+                    <p>Learn about how a web-developer/designer chooses to have to their front pages look for them and make your own.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg" alt="course-3">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Admin Dashboard UI Design</h4>
+                    <p>Learn about the how a admin dashboard works, how it is designed using various methods and its various functionalities.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Edify provides you with a survey like questionnaire where you'll answer all the questions and in the end. The result will show some courses you can directly apply or can contact our experts.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>Do I get a Certificate for every course I take?</h4>
+                    <p>After completion of courses, the course will give a project to complete and fulfill other requirements to certify you. Edify certificates has been approved by approx. 9L companies across India and global which can help you acquire your dream job.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>Do I get a refund if the course isn't worth my money?</h4>
+                    <p>Edify provides you with a 3-month money-back-guarantee. In the starting 3-months, if you feel like the course isn't for you, you can apply for the refund.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>Will I have a lifetime access to the courses I purchase?</h4>
+                    <p>Courses available on Edify will be accessed to you for lifetime without any extra charges, so that you can refresh your knowledge or can update to the changes done in the course.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>Will you assist me to get my first job?</h4>
+                    <p>Courses on Edify only provides you with certification which is approved by 9L companies across India and global. Edify doesn't provide any placements, but courses offers you with Interview questions and various small practice projects.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>What are your payment options?</h4>
+                    <p>Edify accepts all credit cards, debit cards, and also netbanking payment options.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>What are the requirements to start?</h4>
+                    <p>Some courses in Edify requires some sort of knowledge before-hand but major projects doesn't require any prior knowledge, you can just enroll and get started as the courses are beginner friendly.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class='bx bx-plus'></i></div>
+                <div class="question__answer">
+                    <h4>Do I get all source code from projects?</h4>
+                    <p>Courses in Edify provides you with git repositories and various sources for assets and so on. Even practice project codes are provided, so that you can learn without any stoppage. We encourage that the learner first solves the given problem first-hand and then check for the solutions in source code.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="avatar-1">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Hello, this is Diana, I'm pretty satisfied with the course material provided by Edify. The practice projects provided according to different topics helps a lot in learning.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg" alt="avatar-2">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Erick Miller</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>The courses in Edify are really something, as after being certified I had enough experience to do some projects for my portolio which helped me landing job as a web developer.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg" alt="avatar-3">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Eden Quist</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I am very satisfied with the course and the faculty as whether it's a recorded lesson or not, the faculty really helps out in situations I felt like I'm stuck.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="avatar-4">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Hajia Bintu</h5>
+                    <small>UI Designer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I can't imagine being a UI designer, as first I had very low knowledge about the designing field, but it took my interest and followed the course, I'm really thankful for the Edify certification.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg" alt="avatar-5">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Samantha Johnson</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>The different courses really helps in building the projects efficiently. I've personally done 3 courses regarding web development, thus gained much greater results.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar6.jpg" alt="avatar-6">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Jasmine</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I'm currently doing 2 courses at the same time, and I'm really enjoying it as the faculty teachers are very supportive and often encourage us to do as many practice as we can.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar7.jpg" alt="avatar-7">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Liza Robbie</h5>
+                    <small>UI Designer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I'm very glad that I got certified by Edify as it really helped me landing the job that I was interested for last 1 and half years.</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>EDIFY</h4></a>
+                <p>Grow your skills to advance your career</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                    <li><a href="">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact US</h4>
+                <div>
+                    <p>+01 233 364 5478</p>
+                    <p>contact@edify.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="https://www.facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com"><i class='bx bxl-instagram' style='color:#ffffff' ></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com"><i class='bx bxl-twitter' style='color:#ffffff' ></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com"><i class='bx bxl-linkedin' style='color:#ffffff' ></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &#169; 2023 Edify, Inc. All Rights Reserved.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 5500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            // when window width is >= 800px
+            breakpoints: {
+                800: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+    </script>
+</body>
+</html>
