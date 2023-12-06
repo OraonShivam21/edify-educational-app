@@ -7,6 +7,7 @@ Edify is an eduational website that provides user with various courses Edify can
 - [Project Overview](#project-overview)
 - [Live Demo](#live-demo)
 - [Features](#features)
+- [Tech Stack](#tech-stack)
 - [Website Preview](#website-preview)
 
 ## Project Overview
