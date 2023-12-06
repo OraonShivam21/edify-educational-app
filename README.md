@@ -1,7 +1,7 @@
 # EDIFY - Educational Website
 "Grow you skills to advance your career path - Edify offers you with variety of courses which helps you in your skill development and makes you confident for the job. Enroll and get started."
 
-Edify is an eduational website that provides user with various courses Edify can offer. It revolves around creating a responsive website using HTML and CSS. The website is being provided with multi-paged functionalities where users can visit various pages related to the website like Home, About, Courses, and Contact pages. Also, the website is being deployed using the Netlify service.
+Edify is an eduational website that provides user with various courses Edify can offer. It revolves around creating a responsive website using HTML, CSS, and JavaScript. The website is being provided with multi-paged functionalities where users can visit various pages related to the website like Home, About, Courses, and Contact pages. Also, the website is being deployed using the Netlify service.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -27,6 +27,7 @@ The Edify - Educational Website was built using the following technologies and t
 
 - **HTML:** The foundation of the website's structure and content.
 - **CSS:** For styling and making the website visually appealing.
+- **JavaScript** For changing properties of navigation bar to be shown while scrolling and other functionalities.
 - **Netlify:** The website is deployed and hosted on Netlify, making it accessible online.
 
 ## Website Preview
