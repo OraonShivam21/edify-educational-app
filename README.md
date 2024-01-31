@@ -14,7 +14,7 @@ Edify is an eduational website that provides user with various courses Edify can
 Edify - Education Website is an online platform where Edify offers various courses for users or students who are tech enthusiasts and are willing to either learn a new skill in technical field or are willing to upskill themselves. The website is responsive according to various screen sizes and also shows the navigation bar according to the difference screen sizes.
 
 ## Live Demo
-Checkout the live demonstration of this responsive website: [Edify - Educational Website](https://fantastic-croissant-eb2e63.netlify.app/)
+Checkout the live demonstration of this responsive website: [Edify - Educational Website](https://edify-educational-app.vercel.app/)
 
 ## Features
 - **Home:** The page has various features like header section, a fixed navigation section, categories, popular courses, faq's, and some testimonials.
