@@ -1,7 +1,7 @@
 # EDIFY - Educational Website
-"Grow you skills to advance your career path - Edify offers you with variety of courses which helps you in your skill development and makes you confident for the job. Enroll and get started."
+"Grow your skills to advance your career path - Edify offers you with variety of courses that help you in your skill development and make you confident for the job. Enroll and get started."
 
-Edify is an eduational website that provides user with various courses Edify can offer. It revolves around creating a responsive website using HTML, CSS, and JavaScript. The website is being provided with multi-paged functionalities where users can visit various pages related to the website like Home, About, Courses, and Contact pages. Also, the website is being deployed using the Netlify service.
+Edify is an educational website that provides users with various courses Edify can offer. It revolves around creating a responsive website using HTML, CSS, and JavaScript. The website is being provided with multi-paged functionalities where users can visit various pages related to the website like Home, About, Courses, and Contact pages. Also, the website is being deployed using the Netlify service.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,14 +11,14 @@ Edify is an eduational website that provides user with various courses Edify can
 - [Website Preview](#website-preview)
 
 ## Project Overview
-Edify - Education Website is an online platform where Edify offers various courses for users or students who are tech enthusiasts and are willing to either learn a new skill in technical field or are willing to upskill themselves. The website is responsive according to various screen sizes and also shows the navigation bar according to the difference screen sizes.
+Edify - Education Website is an online platform where Edify offers various courses for users or students who are tech enthusiasts and are willing to either learn a new skill in a technical field or are willing to upskill themselves. The website is responsive according to various screen sizes and also shows the navigation bar according to the difference screen sizes.
 
 ## Live Demo
 Checkout the live demonstration of this responsive website: [Edify - Educational Website](https://edify-educational-app.vercel.app/)
 
 ## Features
-- **Home:** The page has various features like header section, a fixed navigation section, categories, popular courses, faq's, and some testimonials.
-- **About:** The page has an achievement section where edify talks about their achievements and shows a section for the team of tutors edify have.
+- **Home:** The page has various features like a header section, a fixed navigation section, categories, popular courses, FAQs, and some testimonials.
+- **About:** The page has an achievement section where Edify talks about their achievements and shows a section for the team of tutors Edify has.
 - **Courses:** It shows the various courses that are provided by Edify for their students or users.
 - **Contact:** The page shows about the various methods through which a user or student can reach the edify team and a section where they can write their messages to them.
 
